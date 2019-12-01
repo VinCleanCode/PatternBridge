@@ -1,0 +1,7 @@
+package com.rp.pattern.bridge.example.message;
+
+public class EmailMessageSender implements MessageSender{
+    public void sendMessage() {
+        System.out.println("EmailMessageSender: Sending email message...");
+    }
+}
